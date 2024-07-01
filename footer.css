@@ -1,0 +1,18 @@
+#btnExpropiar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    text-decoration: none;
+}
+
+#btnExpropiar button {
+    padding: 8px 16px; 
+    background-color:red; 
+    color: white; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; 
+}
+

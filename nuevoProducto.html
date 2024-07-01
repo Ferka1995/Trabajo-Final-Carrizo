@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Producto</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="subirProducto.js"></script>
+    
+</head>
+
+<body>
+    <header><script src="header.js"></script></header>    
+    <form class="nuevoProductoForm" onsubmit="SubirProducto(event)">
+        <input type="text" placeholder="Ingrese un título" id="titulo" required>
+        <input type="number" placeholder="Ingrese el precio en pesos" id="precioPeso" required>
+        <input type="number" placeholder="Ingrese el precio en dolares" id="precioDolar" required>
+        <input type="date" placeholder="Ingrese la fecha" id="fecha" required>
+        <button type="submit" class="confirmarDatos">CONFIRMAR DATOS</button>
+    </form>
+    <hr>
+    
+    <script src="footer.js"></script>
+    
+</body>

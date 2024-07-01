@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Producto</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="editarProducto.js"></script>
+</head>
+
+<body>
+    <header><script src="header.js"></script></header>    
+    <form id="editForm" class="nuevoProductoForm" onsubmit="actualizarProducto(event)">      
+      <input type="text" placeholder="Ingrese un título" id="editTitulo" required>
+      <input type="number" placeholder="Ingrese el precio en pesos" id="editPrecioPeso" required>
+      <input type="number" placeholder="Ingrese el precio en dólares" id="editPrecioDolar" required>
+      <input type="date" placeholder="Ingrese la fecha" id="editFecha" required>
+      <button type="submit" class="confirmarDatos">CONFIRMAR CAMBIOS</button>
+    </form>
+    <hr>
+    <script src="footer.js"></script>
+  </body>
+  
